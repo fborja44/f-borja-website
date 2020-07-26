@@ -1,0 +1,135 @@
+/** Contact Styles **/
+#main-body {
+    margin-top: 100px;
+}
+
+h2 {
+  font-size: 32px; 
+  
+  margin: 10px 0 0 0;
+}
+
+h3 {
+  font-family: Maven Pro, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+
+  margin: 15px 0 auto 15px;
+
+  display: inline-block;
+}
+
+p {
+    text-align: center;
+    font-family: Maven Pro, sans-serif;
+}
+
+.content-body {
+  margin-left: 10px;
+  width: inherit;
+}
+
+.social-logo {
+  width: 50px;
+  height: 50px;
+
+  float: left;
+}
+
+/** Form Styles **/
+
+#form-content-body {
+  align-items: center;
+  width: inherit;
+}
+
+form {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+}
+
+form * {
+  font-family: Maven Pro, sans-serif;
+}
+
+form label {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=checkbox] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=submit], input[type=reset] {
+  background-color: #55D1C4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #44C1B3;
+}
+
+option[value=default] {
+  color: #777777;
+}
+
+#floatright {
+  float: right;
+}
+
+aside {
+  font-family: Maven Pro, sans-serif;
+  font-size: 10px;
+  color: #777777;
+  margin-top: 5px;
+}
+
+label[for=accept] {
+  font-size: 14px;
+}
+
+#contact-form {
+  margin-left: 33%;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#email {
+  font-weight: 500;
+
+  color: #F76C5E;
+}
