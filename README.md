@@ -1,2 +1,5 @@
-# f-borja-website
-First Personal Website
+# fborja-website
+Personal Portfolio Website
+first commits
+
+Built using HTML, CSS, and Javascript
