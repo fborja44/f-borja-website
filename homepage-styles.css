@@ -19,7 +19,6 @@ body {
 }
 
 #welcome-splash {
-    top: 20px;
     text-align: center;
 
     font-family: Maven Pro;
@@ -27,7 +26,7 @@ body {
     font-weight: normal;
     font-size: 85px;
 
-    margin-bottom: 40px;
+    margin: 150px 0 35px 0;
 
     color: #F76C5E;
 }
@@ -38,14 +37,14 @@ body {
 
 h2 {
     padding: 5px 5px 10px 5px;
-    background: #E8EBF0;
-    margin: 0px auto 20px auto;
+    background: #E8EDF5;
+    margin: 0px auto 25px auto;
     width: 1000px;
 }
 
 #line {
     height: 50px;
-    margin: 0 0 20px 0;
+    margin: 0 0 25px 0;
 }
 
 #project-button {
@@ -54,7 +53,7 @@ h2 {
     border-radius: 10px;
     border: none;
 
-    padding: 10px 16px 10px 16px;
+    padding: 10px 20px 10px 20px;
 
     font-family: Maven Pro;
     font-style: normal;
@@ -85,7 +84,7 @@ h2 {
     margin-bottom: -10px;
 }
 
-#doc-container {
+/*#doc-container {
     height: 100%; 
     overflow: hidden;
-}
+}*/

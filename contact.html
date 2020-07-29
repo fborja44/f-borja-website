@@ -8,11 +8,13 @@
         <link rel="stylesheet" href="general-styles.css">
         <link rel="stylesheet" href="contact-styles.css">
 
+        <link rel="icon" type="image" href="icon.png">
+
         <title>Francis Borja | Home</title>
     </head>
 
-    <body>
-        <div id="doc-container">
+    <body id="page-container">
+        <div id="content-wrap">
             <div>
                 <header>
 
@@ -37,64 +39,87 @@
                 <div class="flex-body">
 
                     <section class="content">
-                        <div class="content-container">
-                            <div class="content-body">
+                        <div class="section-full">
+
+                            <div class="section-header" id="turquoise">
                                 <h2>Social Media</h2>
-
-                                <div class="sub-content">
-                                    <a class="sub-container" href="https://www.instagram.com/frankie.borja_/">
-                                        <article class="sub-body">
-                                            <img class="social-logo" src="Images/insta-logo.png" alt="instagram"><h3>@frankie_borja1</h3>
-                                        </article>
-                                    </a>
-                                </div>
-
-                                <div class="sub-content">
-                                    <a class="sub-container" href="https://twitter.com/frankie_borja1">
-                                        <article class="sub-body">
-                                            <img class="social-logo" src="Images/twitter-logo.png" alt="twitter"><h3>frankie.borja</h3>
-                                        </article>
-                                    </a>
-                                </div>
-
-                                <div class="sub-content">
-                                    <a class="sub-container" href="https://www.linkedin.com/in/francis-borja-ab05aa188/">
-                                        <article class="sub-body">
-                                            <img class="social-logo" src="Images/linkedin-logo.png" alt="linkedin"><h3>Francis Borja</h3>
-                                        </article>
-                                    </a>
-                                </div>
-
                             </div>
+                            
+                            <div class="content-container">
+
+                                <div class="content-body">
+
+                                    <div class="sub-content">
+                                        <a class="sub-container" href="https://www.instagram.com/frankie.borja_/">
+                                            <article class="sub-body">
+                                                <img class="social-logo" src="Images/insta-logo.png" alt="instagram"><h3>@frankie_borja1</h3>
+                                            </article>
+                                        </a>
+                                    </div>
+
+                                    <div class="sub-content">
+                                        <a class="sub-container" href="https://twitter.com/frankie_borja1">
+                                            <article class="sub-body">
+                                                <img class="social-logo" src="Images/twitter-logo.png" alt="twitter"><h3>frankie.borja</h3>
+                                            </article>
+                                        </a>
+                                    </div>
+
+                                    <div class="sub-content">
+                                        <a class="sub-container" href="https://www.linkedin.com/in/francis-borja-ab05aa188/">
+                                            <article class="sub-body">
+                                                <img class="social-logo" src="Images/linkedin-logo.png" alt="linkedin"><h3>Francis Borja</h3>
+                                            </article>
+                                        </a>
+                                    </div>
+
+                                    <div class="sub-content">
+                                        <a class="sub-container" href="https://github.com/fborja44">
+                                            <article class="sub-body">
+                                                <img class="social-logo" src="Images/github-logo.png" alt="github"><h3>fborja44</h3>
+                                            </article>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
                         </div>
                     </section>
 
                     <section class="content">
-                        <div class="content-container">
-                            <div class="content-body" id="form-content-body">
+                        <div class="section-full">
 
+                            <div class="section-header" id="yellow">
                                 <h2>Contact Me</h2>
-                                <p>You can contact me directly through email at <a href="mailto:fborja4400@gmail.com">fborja4400@gmail.com</a>, 
-                                    or by filling out the form below.</p>
-                                <form name="contactForm" id="contact-form" method="post" onsubmit="return submitForm();">
-                                    <label for="fname">First Name *</label>
-                                    <input type="text" id="fname" name="firstname" placeholder="First Name">
-                                
-                                    <label for="lname">Last Name *</label>
-                                    <input type="text" id="lname" name="lastname" placeholder="Last Name">
-                        
-                                    <label for="email">E-mail *</label>
-                                    <input type="text" id="email" name="email" placeholder="Email">
-                                
-                                    <label for="subject">Message *</label>
-                                    <textarea id="subject" name="subject" placeholder="Enter Message here"></textarea>
-                                
-                                    <br>
-                                    <input type="submit" value="Submit">
-                                    <input type="reset"  />
-                                </form>
-                                
                             </div>
+
+                            <div class="content-container">
+                                <div class="content-body" id="form-content-body">
+
+                                    <p id="contact-blurb">You can contact me directly through email at <a href="mailto:fborja4400@gmail.com">fborja4400@gmail.com</a>, 
+                                        or by filling out the form below.</p>
+                                    <form name="contactForm" id="contact-form" method="post" onsubmit="return submitForm();">
+                                        <label for="fname">First Name *</label>
+                                        <input type="text" id="fname" name="firstname" placeholder="First Name">
+                                    
+                                        <label for="lname">Last Name *</label>
+                                        <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                            
+                                        <label for="email">E-mail *</label>
+                                        <input type="text" id="email" name="email" placeholder="Email">
+                                    
+                                        <label for="subject">Message *</label>
+                                        <textarea id="subject" name="subject" placeholder="Enter Message here"></textarea>
+                                    
+                                        <br>
+                                        <input type="submit" value="Submit">
+                                        <input type="reset"  />
+                                    </form>
+                                    
+                                </div>
+                            </div>
+
                         </div>
                     </section>
 
@@ -102,11 +127,15 @@
 
             </main>
 
-            <span id="footer-top"></span>
-            <footer>
-
-            </footer>
         </div>
+        
+        <footer>
+            <div id="footer-top"></div>
+            <div id="footer-text">
+                <p>Created by Francis Borja</p>
+                <a href="https://github.com/fborja44/fborja-website" class="footer-link">View Source Code on Github</a>
+            </div>
+        </footer>
         <!-- Javascript -->
         <script></script>
         <!-- jQuery first, Popper.js, Bootstrap JS -->

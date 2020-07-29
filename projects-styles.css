@@ -1,20 +1,63 @@
 /** Project Styles **/
-body {
+/*body {
     overflow: hidden;
-}
+}*/
 
 .container {
-    overflow: hidden;
     width: auto;
     height: auto;
 }
 
 #main-body {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 #github-container {
     width: auto;
+}
+
+#page-title {
+    position: absolute;
+    font-size: 105px;
+    margin: auto auto 3% 22%;
+    
+    text-align: right;
+    
+    top: 100px;
+    right: 20px;
+}
+
+#blurb {
+    margin-bottom: 35px;
+}
+
+#medium {
+    font-weight: bold;
+    font-size: 44px;
+    margin-left: 10px;
+}
+
+p {
+    font-family: Maven Pro, sans-serif;
+    font-weight: regular;
+    font-size: 20px;
+    
+    margin: 15px 15px auto 10px;
+}
+
+#thanks {
+    position: relative;
+    font-size: 30px;
+    left: 54%;
+
+    margin-top: 20px;
+}
+
+hr {
+    border: 0;
+    background: #22333B;
+    height: 1.5px;
+    margin: 0 40px 35px 40px;
 }
 
 /* Social Styles */
@@ -26,19 +69,19 @@ body {
   }
 
 h2 {
-font-size: 32px; 
+    font-size: 32px; 
 
-margin: 10px 20px 0 0;
+    margin: 10px 20px 0 0;
 }
 
 h3 {
-font-family: Maven Pro, sans-serif;
-font-weight: 500;
-font-size: 20px;
+    font-family: Maven Pro, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
 
-margin: 15px 260px auto 15px;
+    margin: 15px 260px auto 15px;
 
-display: inline-block;
+    display: inline-block;
 }
 
 .subtitle {
@@ -49,6 +92,8 @@ display: inline-block;
     padding-top: 2px;
 
     display: inline-block;
+
+    color: #FFFFFF;
 }
 
 a {
@@ -60,6 +105,8 @@ a {
     width: auto;
     
     border-radius: 10px;
+
+    margin-bottom: 60px;
 }
 
 .project-link {
@@ -76,7 +123,7 @@ section {
 }
 
 #project-container {
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     list-style: none;
 
@@ -88,6 +135,10 @@ section {
 
 #project-container li {
     margin: 0 25px 0 25px;
+}
+
+#project-content {
+    margin: 0 10% 0 10%;
 }
 
 /* Background */
