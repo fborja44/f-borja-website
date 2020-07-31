@@ -180,7 +180,7 @@ footer p {
     padding-bottom: 10px;
     height: auto;
 
-    margin-left: 10px;
+    margin: 0 10px 0 10px;
 }
 
 /* Sub-Containers */
@@ -233,7 +233,7 @@ footer p {
     display: flex;
     align-items: left;
 
-    margin: 10px 10px 10px 0px;
+    margin: 10px 0px 10px 0px;
     padding: 10px 15px 10px 15px;
     width: 100%;
 

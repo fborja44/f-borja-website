@@ -39,16 +39,19 @@ article {
 }
 
 h2 {
-    font-size: 72px;
+    font-size: 80px;
     margin-bottom: 10px;
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 34px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
 
-    margin: 10px 0 20px 0;
+    margin: 10px 0 20px 200px;
+    padding: 15px 0 15px 0;
+
+    /*background: #E8EDF5;*/
 }
 
 p {
