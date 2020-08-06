@@ -1,12 +1,12 @@
 /** About-Me Styles **/
-
 body {
-    overflow: hidden;
     margin: 0 0 0 0;
+    
 }
 
 .container {
     overflow: hidden;
+
     height: auto;
     width: auto;
 }
@@ -31,8 +31,8 @@ main {
     display: inline;
 }
 
-article {
-    margin: 110px 30px 0 0;
+#bio {
+    margin: 110px 0 0 0;
     text-align: right;
 
     font-family: Maven Pro, sans-serif;
@@ -40,7 +40,7 @@ article {
 
 h2 {
     font-size: 80px;
-    margin-bottom: 10px;
+    margin: 0 30px 0 0;
 }
 
 h3 {
@@ -49,26 +49,57 @@ h3 {
     font-weight: bold;
 
     margin: 10px 0 20px 200px;
-    padding: 15px 0 15px 0;
+    padding: 15px 30px 15px 0;
 
-    /*background: #E8EDF5;*/
+    background: #E8EDF5;
 }
 
 p {
     font-size: 20px;
-    margin: 20px 0 10px 0;
+    margin: 20px 30px 10px 0;
 }
 
 #back-block {
     position: absolute;
-    width: 660.15px;
-    height: 1139.06px;
-    left: -390px;
-    bottom: -60px;
-
-    background: #55D1C4;
-    transform: rotate(-13.5deg);
+    width: auto;
+    height: 100%;
+    left: 0px;
+    top: 0px;
 
     z-index: -1;
+}
 
+/** Summary **/
+.content {
+    width: 85%;
+    margin: 125px auto 25px auto;
+}
+
+.placeholder {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+
+    margin: 50px 30px 10px 30px;
+}
+
+#summary-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    text-align: center;
+}
+
+#summary h2 {
+    font-size: 36px;
+
+    margin: 0 0 10px 0;
+}
+
+#summary p {
+    font-size: 22px;
+    width: 75%;
+
+    margin: 5px auto 50px auto;
 }

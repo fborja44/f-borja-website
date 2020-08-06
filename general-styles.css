@@ -92,6 +92,16 @@ h2 {
     z-index: 1;
 }
 
+.text-link {
+    font-weight: 500;
+    text-decoration: none;
+    color: #F76C5E;
+}
+
+p {
+    font-family: Maven Pro, sans-serif;
+}
+
 /** Footer Styles **/
 #page-container {
     position: relative;
@@ -203,23 +213,23 @@ footer p {
 }
 
     /* Colors */
-    #bittersweet {
+    .bittersweet {
         background: #F76C5E;
     }
 
-    #turquoise {
+    .turquoise {
         background: #55D1C4;
     }
 
-    #yellow {
+    .yellow {
         background: #ECC30B;
     }
 
-    #purple {
+    .purple {
         background: #BB6BD9;
     }
     
-    #gunmetal {
+    .gunmetal {
         background: #22333B;
     }
     
@@ -248,6 +258,25 @@ footer p {
 
 #fit-container {
     width: auto;
+}
+
+/** Scrollbar **/
+::-webkit-scrollbar { /* Scrollbar */
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track { /* Track */
+    background: #E8EDF5; 
+}
+   
+::-webkit-scrollbar-thumb { /* Thumb */
+    background: #637882; 
+    
+    /*border-radius: 4px;*/
+}
+
+::-webkit-scrollbar-thumb:hover { /* On Hover */
+    background: #546A74; 
 }
 
 /** Other **/
