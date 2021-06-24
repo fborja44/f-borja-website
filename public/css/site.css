@@ -92,10 +92,11 @@ header {
 
 /** Homepage Styles **/
 #background {
-    position: fixed;
-    right: 0;
-    bottom: 0;
+    object-fit: cover;
     width: 100vw;
-    height: calc(1080vw / 19.2);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: -5;
 }
