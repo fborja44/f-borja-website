@@ -1,5 +1,2 @@
 # fborja-website
-Personal Portfolio Website
-first commits
-
-Built using HTML, CSS, and Javascript
+Personal portfolio website for Francis Borja
