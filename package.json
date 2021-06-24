@@ -1,0 +1,25 @@
+{
+  "name": "fborja-website",
+  "version": "1.0.0",
+  "description": "Portfolio website for Francis Borja",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fborja44/fborja-website.git"
+  },
+  "author": "Francis Borja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fborja44/fborja-website/issues"
+  },
+  "homepage": "https://github.com/fborja44/fborja-website#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2"
+  }
+}
