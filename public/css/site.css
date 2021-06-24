@@ -5,6 +5,7 @@
     --header-bg-color-primary: #0F0F12;
 
     --bg-color-primary: #0F0F12;
+    --bg-color-secondary: #1F1F24;
 
     --text-color-primary: white;
     --text-color-secondary: rgb(164, 170, 184);
@@ -20,7 +21,7 @@ body {
     margin: 0;
 }
 
-/* Header */
+/* Header Styles */
 header {
     background: var(--header-bg-color-primary);
     color: var(--text-color-primary);
@@ -52,11 +53,16 @@ header {
     align-items: center;
 }
 
+#header-name {
+    margin-left: 22px;
+}
+
 #header-logo {
     height: 30px;
     width: auto;
 }
 
+/* Navbar Styles */
 #header-nav-list {
     list-style: none;
     padding: none;
@@ -64,12 +70,24 @@ header {
 }
 
 #header-nav-list li {
+    border-bottom: 2px solid var(--bg-color-primary);
+
     float: left;
-    margin: 0 0 0 50px;
+    padding: 0 22px 0 22px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 55px;
+    box-sizing: border-box;
+    transition: all 0.3s ease 0s;
+}
+
+#header-nav-list li:hover {
+    transition: all 0.3s ease-in 0s;
+    border-bottom: 3px solid var(--theme-color-primary);
+    background: var(--bg-color-secondary);
+
+    cursor: pointer;
 }
 
 /** Homepage Styles **/
