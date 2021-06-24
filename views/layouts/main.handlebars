@@ -4,13 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- import Source Sans Pro font family -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <!-- css stylesheet -->
     <link rel="stylesheet" href="/public/css/site.css">
     <title>{{title}}</title>
 </head>
 <body>
     <header>
-
+        <div class="header-section header-1"><span>FRANCIS BORJA</span></div>
+        <div class="header-section header-2">
+            <img id="header-logo" src="/public/img/logo-beta.png" alt="logo"/>
+        </div>
+        <div class="header-section header-3">
+            <nav id="header-nav" >
+                <ul id="header-nav-list">
+                    <li><a>ABOUT</a></li>
+                    <li><a>PROJECTS</a></li>
+                    <li><a>CONTACT</a></li>
+                    <li><a>BLOG</a></li>
+                    <li><img src="/public/img/settings.png" alt="settings" /></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         {{{body}}}
