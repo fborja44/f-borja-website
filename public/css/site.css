@@ -24,6 +24,8 @@ body {
 header {
     background: var(--header-bg-color-primary);
     color: var(--text-color-primary);
+
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     font-size: 18px;
@@ -72,7 +74,10 @@ header {
 
 /** Homepage Styles **/
 #background {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: calc(1080vw / 19.2);
+    z-index: -5;
 }
