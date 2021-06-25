@@ -30,6 +30,15 @@ body {
     margin: 0;
 }
 
+a {
+    color: var(--text-color-primary);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--text-color-primary);
+}
+
 /* Colors */
 .highlight {
     color: var(--theme-color-primary);
@@ -87,7 +96,6 @@ header {
     border-bottom: 2px solid var(--bg-color-primary);
 
     float: left;
-    padding: 0 22px 0 22px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,6 +110,15 @@ header {
     background: var(--bg-color-secondary);
 
     cursor: pointer;
+}
+
+#header-nav-list li a {
+    display: block;
+    padding: 17.5px 22px 17.5px 22px;
+}
+
+#settings {
+    padding: 17.5px 22px 17.5px 22px;
 }
 
 /** Homepage Styles **/
