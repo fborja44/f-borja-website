@@ -7,14 +7,15 @@
 
     --bg-color-primary: #0F0F12;
     --bg-color-secondary: #1F1F24;
-    --bg-color-tertiary: #26262D;
 
     --text-color-primary: white;
     --text-color-secondary: rgb(164, 170, 184);
     --text-color-tertiary: black;
 
     --theme-color-primary: #EB5757;
-    --theme-color-secondary: rgb(196, 58, 58);
+    --theme-color-primary-dark: rgb(196, 58, 58);
+    --theme-color-secondary: #26262D;
+    --theme-color-secondary-dark: #15151a;
 }
 
 /** General Styles **/
@@ -42,8 +43,8 @@ header {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
     display: grid;
     grid-template-columns: 1fr auto 1fr;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 600;
 
     height: 55px;
     padding: 0 30px 0 30px;
@@ -120,7 +121,7 @@ header {
     align-items: center;
     justify-content: center;
 
-    height: calc(90% - 55px);
+    height: calc(85% - 55px);
 }
 
 #splash-text {
@@ -128,24 +129,44 @@ header {
     font-weight: bold;
 }
 
+#desc {
+    margin: 50px 0 60px 0;
+}
+
 .homepage-button button {
     color: var(--text-color-primary);
 
     border-radius: 8px;
-    border: 2px solid #FFFFFF;
+    border: 1px solid #FFFFFF;
     box-sizing: border-box;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
 
     display: inline-block;
-    width: 200px;
-    height: 50px;
+    width: 160px;
+    height: 40px;
+
+    margin: 0 15px 0 15px;
+}
+
+.homepage-button button:hover {
+    cursor: pointer;
 }
 
 #about-button button {
-    background: var(--theme-color-primary)
+    background: var(--theme-color-primary);
+}
+
+#about-button button:hover {
+    background: var(--theme-color-primary-dark);
+    transition: all 0.3s ease 0s;
 }
 
 #project-button button {
-    background: var(--bg-color-tertiary);
+    background: var(--theme-color-secondary);
+}
+
+#project-button button:hover {
+    background: var(--theme-color-secondary-dark);
+    transition: all 0.3s ease 0s;
 }
