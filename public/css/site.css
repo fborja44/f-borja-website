@@ -1,32 +1,33 @@
 /*** Main Site Styles ***/
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 
 /* Variable declarations */
 :root {
-    --header-bg-color-primary: #0F0F12;
+    --header-bg-color-primary: #0f0f12;
 
-    --bg-color-primary: #0F0F12;
-    --bg-color-secondary: #1F1F24;
+    --bg-color-primary: #0f0f12;
+    --bg-color-secondary: #1f1f24;
 
     --text-color-primary: white;
     --text-color-secondary: rgb(164, 170, 184);
     --text-color-tertiary: black;
 
-    --theme-color-primary: #EB5757;
+    --theme-color-primary: #eb5757;
     --theme-color-primary-dark: rgb(196, 58, 58);
-    --theme-color-secondary: #26262D;
+    --theme-color-secondary: #26262d;
     --theme-color-secondary-dark: #15151a;
 }
 
 /** General Styles **/
-html, body {
+html,
+body {
     height: 100%;
 }
 
 body {
     color: var(--text-color-primary);
 
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     margin: 0;
 }
 
@@ -50,30 +51,26 @@ header {
     color: var(--text-color-primary);
 
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
     font-size: 16px;
     font-weight: 600;
 
-    height: 55px;
+    min-height: 55px;
     padding: 0 30px 0 30px;
-}
 
-.header-section {
-    align-self: center;
-}
-
-.header-1 {
-    justify-self: left;
-}
-
-.header-2 {
-    justify-self: center;
-}
-
-.header-3 {
-    justify-self: right;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+}
+
+#header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-container a {
+    justify-self: center;
 }
 
 #header-name {
@@ -83,6 +80,8 @@ header {
 #header-logo {
     height: 30px;
     width: auto;
+
+    justify-self: center;
 }
 
 /* Navbar Styles */
@@ -154,7 +153,7 @@ header {
     color: var(--text-color-primary);
 
     border-radius: 8px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     box-sizing: border-box;
     font-size: 14px;
     font-weight: 500;
